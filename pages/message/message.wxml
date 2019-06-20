@@ -1,0 +1,17 @@
+<view class="card">
+  <text class='card-title'>标题</text>
+  <text class='card-date'>2019-06-13</text>
+  <image src='//m.360buyimg.com/mobilecms/s750x366_jfs/t1/60545/36/1692/100126/5d00cd0bE7d5abe7b/88d5215521b733c4.jpg!cr_1125x549_0_72!q70.jpg.dpg'
+    mode='aspectFill'></image>
+  <text class='card-desc'>越努力，越幸运</text>
+  <text class='card-read arrow'>查看详情</text>
+</view>
+<view class="card">
+  <text class='card-title'>标题</text>
+  <text class='card-date'>2019-06-13</text>
+  <image src='//m.360buyimg.com/mobilecms/s750x366_jfs/t1/60545/36/1692/100126/5d00cd0bE7d5abe7b/88d5215521b733c4.jpg!cr_1125x549_0_72!q70.jpg.dpg'
+    mode='aspectFill'></image>
+  <text class='card-desc'>越努力，越幸运</text>
+  <text class='card-read arrow'>查看详情</text>
+</view>
+ 

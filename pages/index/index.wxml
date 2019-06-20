@@ -1,0 +1,59 @@
+<view class='slider'>
+  <swiper indicator-dots='true' autoplay='true' interval='2500' duration='400'>
+    <!-- <swiper-item>
+      <image src='/assets/images/banner-01.png' height="150"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='/assets/images/banner-02.png'></image>
+    </swiper-item> -->
+    <swiper-item wx:for="{{list}}" wx:key="{{item.id}}">
+      <image src="{{item.image}}"></image>
+    </swiper-item>
+  </swiper>
+</view>
+<view class='index-nev'>
+  <navigator class='nav-item bdr' wx:for="{{navList}}" wx:key="{{item.id}}" url='/pages/shopList/shopList?cat={{ item.id }}&title={{ item.name }}'>
+    <image src="{{item.icon}}" lazy-load></image>
+    <text>{{item.name}} </text>
+  </navigator>
+  <!-- <navigator class='nav-item bdr'>
+    <image src='/assets/icons/grid-02.png'></image>
+    <text>美食 </text>
+  </navigator>
+  <navigator class='nav-item bdr'>
+    <image src='/assets/icons/grid-03.png'></image>
+    <text>美食 </text>
+  </navigator>
+  <navigator class='nav-item bdr'>
+    <image src='/assets/icons/grid-04.png'></image>
+    <text>美食 </text>
+  </navigator>
+  <navigator class='nav-item bdr'>
+    <image src='/assets/icons/grid-05.png'></image>
+    <text>美食 </text>
+  </navigator>
+  <navigator class='nav-item bdr'>
+    <image src='/assets/icons/grid-06.png'></image>
+    <text>美食 </text>
+  </navigator>
+  <navigator class='nav-item bdr'>
+    <image src='/assets/icons/grid-07.png'></image>
+    <text>美食 </text>
+  </navigator>
+  <navigator class='nav-item bdr'>
+    <image src='/assets/icons/grid-08.png'></image>
+    <text>美食 </text>
+  </navigator>
+  <navigator class='nav-item bdr'>
+    <image src='/assets/icons/grid-09.png'></image>
+    <text>美食 </text>
+  </navigator> -->
+</view>
+<view class='index-enter'>
+  <navigator class='enter-item'>
+    <image src='/assets/images/link-01.png'></image>
+  </navigator>
+  <navigator class='enter-item'>
+    <image src='/assets/images/link-02.png'></image>
+  </navigator>
+</view>
